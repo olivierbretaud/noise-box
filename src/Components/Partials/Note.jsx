@@ -3,7 +3,7 @@ import React from 'react';
 export default function Note(props) {
   
   function playNote() {
-    props.synth.triggerAttackRelease(props.note, "8n")
+    props.synth.triggerAttackRelease(props.note, "4n")
   }
 
   return (
